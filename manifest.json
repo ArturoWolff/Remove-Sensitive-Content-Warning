@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Remove Sensitive Content Warning",
+  "version": "1.0",
+  "description": "Removes the sensitive content warning on x.com",
+  "content_scripts": [
+    {
+      "matches": ["*://x.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
